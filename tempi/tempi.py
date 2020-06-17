@@ -9,7 +9,7 @@ import json
 requests.packages.urllib3.disable_warnings()
 
 ''' CONSTANTS '''
-DATE_FORMAT = '%Y-%m-%dT%H:%M:%SZ'
+DATE_FORMAT = '%Y-%m-%d'
 
 
 def say_hello_command(client, args):
